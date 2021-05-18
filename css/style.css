@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    background: url('../images/gym.jpg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* ################################# elements styling ########################## */
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 1em;
+}
+.btn{
+    background: rgb(3, 3, 3);
+    color: white;
+    display: inline-block;
+    margin: 1.6em 0.2em;
+    padding: 0 0.3em;
+    border-radius: 10px;
+}
+/* ######################## navbar styling ################################# */
+.navbar-left{
+    /* border: 2px solid red; */
+    color: #ffffff;
+    padding: 1em 1em;
+    float: left;
+    text-align: center;
+}
+.navbar-mid{
+    /* border: 2px solid green; */
+    color: #ffffff;
+    float: left;
+    margin: 2em 19em;
+    text-align: center;
+    width: 33%;
+}
+.navbar-right{
+    /* border: 2px solid yellow; */
+    /* margin: 1.5em; */
+    float: right;
+}
+
+/* #################################### pseudo elements styling ########################### */
+.header::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+li:hover, li:active{
+    color: grey;
+    border-bottom: 2px solid grey;
+}
+.btn:hover{
+    background-color: grey;
+}
+.submitbtm:hover{
+    background-color: rgb(114, 97, 97);
+}
+/* ###################################### from styling ###################### */
+.container{
+    color: white;
+    position: absolute;
+    top: 199px;
+    left: 190px;
+    text-align: center;
+}
+.submitbtm{
+    padding: 0 4.9em;
+    border-radius: 0.5em;
+    background: rgb(29, 28, 28);
+    color: white;
+}
+.submitbtm h3{
+    font-weight: 200;
+}
+form input{
+    text-align: center;
+}
